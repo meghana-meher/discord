@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header-body {
+  padding: 10px;
+  width: 100%;
+  background-color: #404eed;
+}
+.header-body .navbar-brand img {
+  width: 140px;
+}
+.header-body .nav-item a {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.header-body a:hover {
+  text-decoration: underline;
+}
+.header-body li {
+  padding-right: 1rem;
+}
+.header-body .button {
+  width: 80px;
+  background-color: white;
+  outline: none;
+  border: none;
+  color: black;
+  height: 40px;
+  border-radius: 20px;
+}
+.header-body .body_1 {
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+  background-image: url(images/img.png);
+  padding-bottom: 6%;
+}
+.header-body .body_1 h1 {
+  padding-top: 2rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 60px;
+}
+.header-body .body_1 p {
+  width: 665px;
+  text-align: center;
+  margin-left: 32%;
+  font-size: 20px;
+  padding-top: 1rem;
+}
+.header-body .body_1 button {
+  width: 280px;
+  padding: 1rem;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.header-body .body_1 button .button_2 {
+  color: white;
+  background-color: black;
+}
+.header-body .body_1 button i {
+  padding-right: 12px;
+}
+.header-body .body_1 button.button_2 {
+  background: black;
+  color: white;
+}
+
+.body_2 {
+  margin: 5% 0;
+}
+.body_2 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  padding-top: 2.5rem;
+}
+.body_2 p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.body_3 {
+  background-color: rgb(241, 241, 241);
+  padding: 5% 0;
+}
+.body_3 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  padding-top: 2.5rem;
+}
+.body_3 p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.body_4 {
+  background-color: rgb(241, 241, 241);
+  padding: 5% 0;
+  text-align: center;
+}
+.body_4 h1 {
+  text-align: center;
+  font-size: 75px;
+  font-family: "DM Serif Display", serif;
+}
+.body_4 p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 17px;
+}
+.body_4 .img2 {
+  width: 100%;
+  padding-bottom: 5%;
+}
+.body_4 button {
+  width: 280px;
+  padding: 1rem;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #404eed;
+}
+.body_4 button i {
+  padding-right: 12px;
+}
+
+.footer {
+  background-color: #23272a;
+  padding: 5%;
+  color: white;
+}
+.footer h5 {
+  padding-bottom: 10px;
+  color: #404eed;
+}
+.footer li a {
+  color: white !important;
+  font-size: 18px;
+}
+.footer li a:hover {
+  text-decoration: underline;
+}
+.footer .icons i {
+  padding-right: 15px;
+  cursor: pointer;
+}
+.footer img {
+  height: 30px;
+}
+.footer .footer-down {
+  border-top: 1px solid #404eed !important;
+}
+.footer .footer-down button {
+  padding: 1rem;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-right: 10px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #404eed;
+}/*# sourceMappingURL=discord.css.map */
